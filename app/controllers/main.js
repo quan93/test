@@ -1,6 +1,9 @@
 $(document).ready(function() {
   var danhSachNguoiDung = new DanhSachNguoiDung();
 
+  function themNguoiDung(){
+    console.log("themNguoiDung 2");
+  }
   getListUser();
 
   function getListUser() {
